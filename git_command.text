@@ -23,6 +23,7 @@ Push: Upload local repo content to remote repo.
 
 git push origin main
 
+git branch
 
 - To check branch
 
@@ -39,3 +40,17 @@ git checkout -b <new branch name>
 git branch -d <branch name>
 
 - To remove branch
+
+Merging Code:
+
+Method 1:
+
+git diff <branch name>
+-To compare commits, branches,files& more
+
+git merge <branch name>
+-To merge 2 branches
+
+Way2:
+Create a PR
+
